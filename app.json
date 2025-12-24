@@ -1,0 +1,25 @@
+{
+  "name": "PHP AI Telegram Bot",
+  "description": "A Telegram bot using PHP, Groq AI, and MongoDB Atlas.",
+  "keywords": ["php", "telegram", "bot", "groq", "mongodb"],
+  "repository": "https://github.com/YOUR_USERNAME/YOUR_REPO_NAME",
+  "env": {
+    "TELEGRAM_TOKEN": {
+      "description": "Token from BotFather",
+      "required": true
+    },
+    "GROQ_API_KEY": {
+      "description": "API Key from Groq Cloud",
+      "required": true
+    },
+    "MONGO_URI": {
+      "description": "MongoDB Connection String (Atlas)",
+      "required": true
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "heroku/php"
+    }
+  ]
+}
