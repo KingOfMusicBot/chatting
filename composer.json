@@ -1,5 +1,10 @@
 {
     "require": {
-        "mongodb/mongodb": "^1.15"
+        "mongodb/mongodb": "^1.19"
+    },
+    "config": {
+        "allow-plugins": {
+            "php-http/discovery": true
+        }
     }
 }
